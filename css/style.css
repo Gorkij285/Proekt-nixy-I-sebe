@@ -1,0 +1,1758 @@
+@charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, ../../../../../../Господин/Desktop/project4/src/sass/normalizes.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 1, ../../../../../../Господин/Desktop/project4/src/sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 21, ../../../../../../Господин/Desktop/project4/src/sass/resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, ../../../../../../Господин/Desktop/project4/src/sass/resets.scss */
+html {
+  height: 100%;
+}
+
+/* line 28, ../../../../../../Господин/Desktop/project4/src/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, ../../../../../../Господин/Desktop/project4/src/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, ../../../../../../Господин/Desktop/project4/src/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, ../../../../../../Господин/Desktop/project4/src/sass/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, ../../../../../../Господин/Desktop/project4/src/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 4, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+/* line 10, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.conteiner {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* line 18, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.main-section {
+  position: relative;
+  min-height: 800px;
+  background-color: #f0f0f0;
+  padding-top: 16px;
+  z-index: -3;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+
+/* line 27, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.main-section__nav-conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 69px;
+  align-items: center;
+}
+
+/* line 34, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.main-section__logo {
+  width: 134px;
+}
+
+/* line 36, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.main-section__content-conteiner {
+  position: relative;
+}
+
+/* line 38, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.main-section__first-elipse {
+  position: absolute;
+  top: 142px;
+  right: 37px;
+}
+
+/* line 42, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.main-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: 650px;
+}
+
+/* line 49, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 52, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.nav-menu__list-item {
+  margin-right: 64px;
+  font-size: 18px;
+}
+
+/* line 55, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.nav-menu__list-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 58, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.left-wrapper {
+  position: relative;
+}
+
+/* line 60, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.left-wrapper__rectangal-blue {
+  position: absolute;
+  top: 150px;
+  left: -50px;
+  width: 618.43px;
+  height: 220px;
+  background-color: #5290ea;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-64deg);
+  z-index: 2;
+}
+
+/* line 71, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.left-wrapper__img {
+  position: relative;
+  z-index: 5;
+}
+
+/* line 74, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.left-wrapper__rectangal-orange {
+  position: absolute;
+  width: 618.43px;
+  height: 220px;
+  left: -30px;
+  top: 160px;
+  background: #F28B64;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transform: rotate(-50.81deg);
+  z-index: 3;
+}
+
+/* line 85, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.left-wrapper__rectangal-grey {
+  position: absolute;
+  width: 608.97px;
+  height: 220px;
+  left: 10px;
+  top: 190px;
+  background: #E2E2E2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transform: rotate(-36.15deg);
+  z-index: 1;
+}
+
+/* line 98, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.right-wrapper {
+  width: 376px;
+  position: absolute;
+  top: 150px;
+  right: 46px;
+  z-index: 1;
+}
+
+/* line 105, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.right-wrapper__icons-box {
+  margin-bottom: 1px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 111, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.right-wrapper__text {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+/* line 114, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.right-wrapper__title {
+  margin-bottom: 5px;
+}
+
+/* line 116, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.right-wrapper__button-text {
+  color: white;
+}
+
+/* line 121, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.icons__item {
+  width: 40px;
+  height: 40px;
+  margin-right: 17px;
+}
+
+/* line 125, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.icons__item:last-child {
+  margin-right: 0px;
+}
+
+/* line 129, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.title {
+  font-size: 72px;
+  position: relative;
+}
+
+/* line 133, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.title__hr {
+  width: 65px;
+  position: relative;
+  bottom: 0px;
+  margin: 0px;
+}
+
+/* line 144, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.title__hr-2 {
+  width: 65px;
+  position: relative;
+  bottom: -5px;
+  margin: 0px;
+}
+
+/* line 149, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.buttons {
+  display: inline-flex;
+}
+
+/* line 151, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.buttons__1 {
+  margin-right: 32px;
+  width: 200px;
+  height: 60px;
+  background: #F28B64;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  border: none;
+}
+
+/* line 162, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.buttons__icon-btm {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 165, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.buttons__icon-btm img {
+  margin-right: 12px;
+}
+
+/* line 167, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.buttons__text {
+  font-size: 16px;
+}
+
+/* line 171, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.elipse {
+  width: 194px;
+  height: 194px;
+  background: linear-gradient(143.92deg, #ED7B50 14.85%, #488AEA 53.25%, #e8e0e0 85.74%);
+  border-radius: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+/* line 180, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.elipse_big {
+  width: 282px;
+  height: 282px;
+}
+
+/* line 184, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.elipse__subtract {
+  width: 129.33px;
+  height: 129.33px;
+  background: #f0f0f0;
+  border-radius: 150px;
+}
+
+/* line 189, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.elipse__subtract_big {
+  width: 188px;
+  height: 188px;
+}
+
+/* line 193, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.two-section {
+  position: relative;
+  height: 800px;
+  overflow: hidden;
+}
+
+/* line 197, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.two-section__title {
+  margin-bottom: 44px;
+}
+
+/* line 200, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.two-section__box-block {
+  display: inline-flex;
+  max-height: 360px;
+}
+
+/* line 204, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.two-section__box-one {
+  position: relative;
+  background: #E2E2E2;
+}
+
+/* line 207, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.two-section__box-two {
+  position: relative;
+  background: #F28B64;
+}
+
+/* line 210, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.two-section__box-three {
+  position: relative;
+  background: #5290ea;
+}
+
+/* line 213, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.two-section__box-one-text {
+  top: 135px;
+  right: 32px;
+}
+
+/* line 216, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.two-section__icons-box {
+  position: absolute;
+  width: 1035px;
+  height: 99px;
+  background: grey;
+  margin-left: 45px;
+}
+
+/* line 223, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.two-section__icons-card {
+  display: inline-flex;
+  position: relative;
+  width: 1035px;
+  height: 99px;
+  justify-content: center;
+}
+
+/* line 230, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.two-section__icons-card__kubok {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+/* line 234, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.two-section__icons-card__star {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 80px;
+}
+
+/* line 238, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.two-section__icons-card__student {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 80px;
+}
+
+/* line 242, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.two-section__icons-card__watch {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 0px;
+}
+
+/* line 248, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.two-section__elipse {
+  position: absolute;
+  top: -140px;
+  right: 941px;
+  z-index: -1;
+}
+
+/* line 253, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.two-section__elipse-subtract {
+  position: absolute;
+}
+
+/* line 256, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.two-section__elipse2 {
+  position: absolute;
+  top: -458px;
+  right: -195px;
+  z-index: -1;
+}
+
+/* line 261, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.two-section__elipse2-subtract {
+  position: absolute;
+}
+
+/* line 265, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.box {
+  position: relative;
+  width: 360px;
+  height: 360px;
+  margin-right: 30px;
+  padding-top: 25px;
+  border-radius: 10px;
+}
+
+/* line 272, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.box:last-child {
+  margin-right: 0px;
+}
+
+/* line 276, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.text-inbox {
+  position: absolute;
+  top: 135px;
+  right: 28px;
+  font-size: 36px;
+  line-height: 44px;
+  transform: rotate(90deg);
+  text-align: center;
+}
+
+/* line 285, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.boll7 {
+  font-size: 48px;
+  line-height: 59px;
+}
+
+/* line 289, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.icons-kubok {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+/* line 293, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.icons-kubok__text {
+  font-size: 18px;
+}
+
+/* line 295, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.icons-kubok__text span {
+  font-size: 48px;
+}
+
+/* line 299, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.icons-star {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+/* line 304, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.icons-star__text {
+  font-size: 18px;
+}
+
+/* line 306, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.icons-star__text span {
+  font-size: 48px;
+}
+
+/* line 309, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.icons-student {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+/* line 314, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.icons-student__text {
+  font-size: 18px;
+}
+
+/* line 316, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.icons-student__text span {
+  font-size: 48px;
+}
+
+/* line 318, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.icons-watch {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+/* line 323, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.icons-watch__text {
+  font-size: 18px;
+}
+
+/* line 325, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.icons-watch__text span {
+  font-size: 48px;
+}
+
+/* line 333, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.three-section {
+  position: relative;
+  background: #f0f0f0;
+  overflow: hidden;
+}
+
+/* line 338, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.three-section__conteiner {
+  position: relative;
+  height: 760px;
+  display: flex;
+  align-items: center;
+}
+
+/* line 345, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.three-section__left-side {
+  width: 542px;
+  height: 319px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 74px;
+}
+
+/* line 354, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.three-section__left-side-text {
+  z-index: 1;
+}
+
+/* line 356, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.three-section__right-side {
+  position: relative;
+  height: 550px;
+  width: 493px;
+}
+
+/* line 361, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.three-section__right-side-text {
+  padding-left: 15px;
+  padding-bottom: 30px;
+  line-height: 65px;
+}
+
+/* line 365, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.three-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: 590px;
+}
+
+/* line 372, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.icons3sec {
+  position: absolute;
+  top: 90px;
+  right: 312px;
+}
+
+/* line 377, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.icons3sec__ring {
+  position: absolute;
+  top: 20px;
+  right: 164px;
+}
+
+/* line 382, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.paragraph-1 {
+  font-size: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  line-height: 22px;
+}
+
+/* line 387, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.paragraph-2 {
+  font-size: 20px;
+  padding-left: 10px;
+  line-height: 22px;
+  padding-bottom: 30px;
+}
+
+/* line 393, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.botton-three-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 397, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.botton-three-section__button-text {
+  color: white;
+}
+
+/* line 401, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.fourth-section {
+  position: relative;
+  max-height: 400px;
+  background-color: #ffffff;
+  padding-top: 16px;
+  z-index: -3;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+
+/* line 409, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.fourth-section__conteiner {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: white;
+  overflow: hidden;
+}
+
+/* line 416, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.fourth-section__img {
+  position: relative;
+  margin-left: -70px;
+  margin-right: 35px;
+  margin-bottom: 60px;
+}
+
+/* line 421, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.fourth-section__icons-box {
+  position: absolute;
+  display: inline-flex;
+  justify-content: flex-start;
+  padding-top: 22px;
+}
+
+/* line 426, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+.body {
+  position: relative;
+}
+
+@media (max-width: 1199px) {
+  /* line 430, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .conteiner {
+    width: 960px;
+  }
+  /* line 433, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__img {
+    height: 600px;
+  }
+  /* line 435, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__rectangal-orange {
+    width: 550px;
+    height: 170px;
+  }
+  /* line 438, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__rectangal-blue {
+    width: 550px;
+    height: 170px;
+  }
+  /* line 441, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__rectangal-grey {
+    width: 550px;
+    height: 170px;
+  }
+  /* line 444, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .right-wrapper {
+    right: 22px;
+  }
+  /* line 446, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .main-section {
+    min-height: 685px;
+  }
+  /* line 448, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .main-section__first-elipse {
+    top: 130px;
+    right: 0px;
+  }
+  /* line 451, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 555px;
+  }
+  /* line 453, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .box {
+    height: 299px;
+    width: 299px;
+  }
+  /* line 457, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons__gitary {
+    height: 274px;
+    width: 153px;
+  }
+  /* line 460, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .text-inbox {
+    top: 108px;
+    right: 23px;
+    font-size: 32px;
+  }
+  /* line 465, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .two-section__icons-card {
+    width: 950px;
+  }
+  /* line 468, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .three-section__second-elipse {
+    top: 650px;
+  }
+  /* line 471, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .title__footer {
+    font-size: 42px;
+  }
+  /* line 473, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .two-section {
+    height: 554px;
+  }
+  /* line 475, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .fourth-section {
+    height: 250px;
+  }
+  /* line 477, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .fourth-section__img {
+    position: relative;
+    top: -2px;
+    right: -46px;
+    height: 301px;
+    width: 523px;
+    margin-left: -58px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  /* line 486, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .fourth-section__text {
+    position: relative;
+    right: -134px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 492, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .conteiner {
+    width: 720px;
+  }
+  /* line 494, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper {
+    margin-right: -30px;
+  }
+  /* line 496, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__img {
+    height: 450px;
+  }
+  /* line 498, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__rectangal-orange {
+    width: 400px;
+    height: 150px;
+  }
+  /* line 501, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__rectangal-blue {
+    width: 400px;
+    height: 150px;
+  }
+  /* line 504, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__rectangal-grey {
+    width: 400px;
+    height: 150px;
+  }
+  /* line 507, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .right-wrapper {
+    right: -75px;
+    top: 52px;
+  }
+  /* line 511, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .right-wrapper__button {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    right: -108px;
+    top: 12px;
+  }
+  /* line 517, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .main-section {
+    min-height: 538px;
+  }
+  /* line 519, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .main-section__first-elipse {
+    top: 24px;
+    right: -52px;
+  }
+  /* line 522, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 470px;
+  }
+  /* line 525, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .buttons__1 {
+    margin-bottom: 12px;
+    margin-right: 32px;
+  }
+  /* line 530, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .two-section__title {
+    margin-bottom: 25px;
+  }
+  /* line 532, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .two-section__icons-card {
+    width: 950px;
+  }
+  /* line 536, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons__gitary {
+    height: 266px;
+    width: 128px;
+  }
+  /* line 540, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .two-section {
+    height: 530px;
+  }
+  /* line 544, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .two-section__icons-card {
+    width: 950px;
+    justify-content: flex-start;
+    position: relative;
+    right: -60px;
+  }
+  /* line 549, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .two-section__icons-card__kubok {
+    margin-right: 20px;
+  }
+  /* line 551, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .two-section__icons-card__star {
+    margin-right: 20px;
+  }
+  /* line 553, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .two-section__icons-card__student {
+    margin-right: 20px;
+  }
+  /* line 555, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .two-section__icons-card__watch {
+    margin-right: 20px;
+  }
+  /* line 557, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .two-section__elipse {
+    position: absolute;
+    top: -162px;
+    right: 901px;
+  }
+  /* line 561, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .box {
+    height: 291px;
+    width: 221px;
+  }
+  /* line 564, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .text-inbox {
+    top: 103px;
+    right: -1px;
+    font-size: 28px;
+  }
+  /* line 569, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons__ts {
+    width: 60px;
+    height: 60px;
+  }
+  /* line 575, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-kubok {
+    margin-right: 10px;
+  }
+  /* line 578, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-kubok__text {
+    font-size: 14px;
+  }
+  /* line 580, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-kubok__text span {
+    font-size: 30px;
+  }
+  /* line 584, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-star {
+    margin-right: 10px;
+  }
+  /* line 587, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-star__text {
+    font-size: 14px;
+  }
+  /* line 589, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-star__text span {
+    font-size: 30px;
+  }
+  /* line 591, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-student {
+    margin-right: 10px;
+  }
+  /* line 594, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-student__text {
+    font-size: 14px;
+  }
+  /* line 596, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-student__text span {
+    font-size: 30px;
+  }
+  /* line 598, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-watch {
+    margin-right: 10px;
+  }
+  /* line 600, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-watch__text {
+    font-size: 14px;
+  }
+  /* line 602, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-watch__text span {
+    font-size: 30px;
+  }
+  /* line 605, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .three-section {
+    height: 600px;
+  }
+  /* line 607, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .three-section__left-side-text {
+    z-index: -1000;
+  }
+  /* line 609, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .three-section__right-side {
+    top: -91px;
+    left: -247px;
+  }
+  /* line 612, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .three-section__second-elipse {
+    top: 331px;
+    right: -132px;
+  }
+  /* line 616, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons3sec {
+    position: absolute;
+    top: -277px;
+    right: -330px;
+  }
+  /* line 620, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons3sec__ring {
+    top: -131px;
+    right: -42px;
+  }
+  /* line 624, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .paragraph-1 {
+    font-size: 17px;
+  }
+  /* line 626, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .paragraph-2 {
+    font-size: 17px;
+  }
+  /* line 629, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .fourth-section {
+    height: 210px;
+  }
+  /* line 632, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .fourth-section__img {
+    position: relative;
+    top: -2px;
+    right: -60px;
+    height: 250px;
+    width: 400px;
+    margin-left: -60px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  /* line 641, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .fourth-section__icons-box {
+    right: 47px;
+    top: 68px;
+  }
+  /* line 644, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .fourth-section__text {
+    position: relative;
+    right: -100px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 654, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .conteiner {
+    width: 540px;
+  }
+  /* line 656, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .title {
+    font-size: 52px;
+  }
+  /* line 658, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .title__hr-2 {
+    width: 20px;
+  }
+  /* line 660, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .main-section {
+    min-height: 415px;
+  }
+  /* line 662, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .main-section__first-elipse {
+    width: 160px;
+    height: 160px;
+    top: 12px;
+    right: -73px;
+  }
+  /* line 669, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper {
+    margin-right: -30px;
+  }
+  /* line 671, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__img {
+    height: 250px;
+  }
+  /* line 673, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__rectangal-orange {
+    width: 220px;
+    height: 75px;
+  }
+  /* line 676, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__rectangal-blue {
+    width: 220px;
+    height: 75px;
+  }
+  /* line 679, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__rectangal-grey {
+    width: 220px;
+    height: 75px;
+  }
+  /* line 683, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__rectangal-blue {
+    top: 60px;
+  }
+  /* line 685, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__rectangal-orange {
+    top: 72px;
+  }
+  /* line 687, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__rectangal-grey {
+    top: 84px;
+    left: -19px;
+  }
+  /* line 690, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__img {
+    height: 311px;
+    position: relative;
+    right: 61px;
+    top: 19px;
+  }
+  /* line 695, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .right-wrapper {
+    width: 300px;
+    top: 28px;
+  }
+  /* line 698, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .right-wrapper__title {
+    margin-bottom: 5px;
+    font-size: 52px;
+  }
+  /* line 701, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .right-wrapper__text {
+    width: 230px;
+  }
+  /* line 703, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .right-wrapper__icons-box {
+    padding-left: 2px;
+  }
+  /* line 705, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .right-wrapper__button {
+    right: 3px;
+  }
+  /* line 708, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .two-section {
+    height: 436px;
+  }
+  /* line 710, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .two-section__icons-card {
+    right: -5px;
+  }
+  /* line 714, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .box {
+    height: 230px;
+    width: 172px;
+    margin-right: 13px;
+  }
+  /* line 718, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons__gitary {
+    position: relative;
+    right: 13px;
+    height: 205px;
+    width: 100px;
+  }
+  /* line 723, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .text-inbox {
+    top: 97px;
+    right: -5px;
+    font-size: 28px;
+    line-height: 1.1;
+  }
+  /* line 728, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons__ts {
+    width: 50px;
+    height: 50px;
+  }
+  /* line 732, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-kubok {
+    margin-right: 6px;
+  }
+  /* line 735, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-kubok__text {
+    font-size: 12px;
+  }
+  /* line 737, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-kubok__text span {
+    font-size: 30px;
+  }
+  /* line 741, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-star {
+    margin-right: 8px;
+  }
+  /* line 744, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-star__text {
+    font-size: 12px;
+  }
+  /* line 746, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-star__text span {
+    font-size: 30px;
+  }
+  /* line 748, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-student {
+    margin-right: 8px;
+  }
+  /* line 751, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-student__text {
+    font-size: 12px;
+  }
+  /* line 753, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-student__text span {
+    font-size: 30px;
+  }
+  /* line 755, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-watch {
+    margin-right: 8px;
+  }
+  /* line 757, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-watch__text {
+    font-size: 12px;
+  }
+  /* line 759, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons-watch__text span {
+    font-size: 30px;
+  }
+  /* line 762, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .three-section {
+    height: 600px;
+  }
+  /* line 764, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .three-section__left-side-text {
+    z-index: -1000;
+  }
+  /* line 766, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .three-section__right-side {
+    top: -91px;
+    left: -247px;
+  }
+  /* line 769, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .three-section__second-elipse {
+    top: 331px;
+    right: -132px;
+  }
+  /* line 773, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons3sec {
+    position: absolute;
+    top: -277px;
+    right: -330px;
+  }
+  /* line 777, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .icons3sec__ring {
+    top: -131px;
+    right: -42px;
+  }
+  /* line 781, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .paragraph-1 {
+    font-size: 17px;
+  }
+  /* line 783, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .paragraph-2 {
+    font-size: 17px;
+  }
+  /* line 787, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .fourth-section {
+    height: 170px;
+  }
+  /* line 790, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .fourth-section__img {
+    position: relative;
+    top: -2px;
+    right: 75px;
+    height: 250px;
+    width: 400px;
+    margin-left: -60px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  /* line 799, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .fourth-section__icons-box {
+    right: 18px;
+    top: 60px;
+  }
+  /* line 803, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .fourth-section__text {
+    right: 0px;
+  }
+  /* line 808, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .title__footer {
+    position: absolute;
+    font-size: 33px;
+    right: 20px;
+    top: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 816, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .conteiner {
+    width: 100%;
+  }
+  /* line 818, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .nav-menu {
+    position: fixed;
+    top: 0px;
+    right: -100%;
+    background: blue;
+    z-index: 1000;
+    height: 100vh;
+    width: 50%;
+    transition: 0.6s all;
+  }
+  /* line 827, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .nav-menu__list {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  /* line 832, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .nav-menu__list-item {
+    margin: 0px;
+  }
+  /* line 834, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .hamburger {
+    width: 30px;
+    height: 14px;
+    position: fixed;
+    top: 40px;
+    right: 30px;
+    z-index: 1111;
+  }
+  /* line 842, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .hamburger span {
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: black;
+    margin-bottom: 4px;
+    transition: 1s all;
+  }
+  /* line 849, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .hamburger span:last-child {
+    margin-bottom: 0px;
+  }
+  /* line 853, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 855, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 857, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 859, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 861, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .nav-menu_active {
+    right: 0px;
+  }
+  /* line 865, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .main-section {
+    min-height: 415px;
+  }
+  /* line 867, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .main-section__first-elipse {
+    width: 160px;
+    height: 160px;
+    top: 12px;
+    right: -73px;
+  }
+  /* line 874, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper {
+    margin-right: -30px;
+  }
+  /* line 876, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__img {
+    height: 250px;
+  }
+  /* line 878, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__rectangal-orange {
+    width: 220px;
+    height: 75px;
+  }
+  /* line 881, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__rectangal-blue {
+    width: 220px;
+    height: 75px;
+  }
+  /* line 884, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__rectangal-grey {
+    width: 220px;
+    height: 75px;
+  }
+  /* line 888, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__rectangal-blue {
+    top: 60px;
+  }
+  /* line 890, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__rectangal-orange {
+    top: 72px;
+  }
+  /* line 892, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__rectangal-grey {
+    top: 84px;
+    left: -19px;
+  }
+  /* line 895, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .left-wrapper__img {
+    height: 311px;
+    position: relative;
+    right: 61px;
+    top: 19px;
+  }
+  /* line 900, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .right-wrapper {
+    width: 300px;
+    top: 28px;
+  }
+  /* line 903, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .right-wrapper__title {
+    margin-bottom: 5px;
+    font-size: 36px;
+  }
+  /* line 906, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .right-wrapper__text {
+    width: 230px;
+    font-size: 14px;
+  }
+  /* line 909, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .right-wrapper__icons-box {
+    padding-left: 2px;
+  }
+  /* line 911, ../../../../../../Господин/Desktop/project4/src/sass/style.sass */
+  .right-wrapper__button {
+    right: 3px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
